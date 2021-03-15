@@ -1,0 +1,143 @@
+/*tablet view for contact*/
+@media(max-width: 1000px){
+    .logo {
+        float: left;
+        padding: 20px 50px;
+        font-weight: 600;
+    }
+
+    .box {
+        float: left;
+        width: 33%;
+    }
+
+    form {
+        position: absolute;
+        width: 100%;
+        top: 110px;
+        left: 14px;
+    }
+
+    .textfield {
+        width: 240px;
+        height: 38px;
+        padding: 8px 12px;
+        font-size: 14px;
+        color: #333333;
+        border-radius: 5px;
+        background-color: #e8e8ee;
+        border: 1px solid #cccccc;
+        margin-bottom: 10px;
+    }
+    
+    
+    .field {
+        width: 240px;
+        display: block;
+        height: 65px;
+        border-radius: 5px;
+        background-color: #e8e8ee;
+        border: 1px solid #cccccc;
+        color: #333333;
+        padding: 8px 12px;
+    }
+    
+    .submit-button {
+        width: 240px;
+        margin-top: 19px;
+        border-radius: 5px;
+        background-color: #000;
+        font-family: Montserrat, sans-serif;
+        font-size: 12px;
+        display: inline-block;
+        padding: 9px 15px;
+        color: white;
+    }
+
+    .right {
+        position: relative;
+    }
+
+    img {
+        position: absolute;
+        top: 30px;
+        left: 40px;
+        width: 150px;    
+    }
+    
+}
+
+/*phone view for contact*/
+@media(max-width: 670px){
+    
+
+    #bar {
+        display: block;
+    }
+
+    .box {
+        float: left;
+        width: 100%;
+    }
+
+    .ghost{
+        display: none;
+    }
+    
+    main {
+        height: 800px;
+    }
+
+    form {
+        position: absolute;
+        width: 90%;
+        top: 110px;
+        left: 32px;
+    }
+
+    .right {
+        position: relative;
+    }
+
+    img {
+        position: absolute;
+        top: 0px;
+        left: 32px;
+        width: 190px;    
+    }
+
+    .header-list{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgb(0, 0, 0, 1.0);
+        top: 50px;
+        z-index: 10;
+       
+
+    }
+
+    .header-list {
+        left: -100%;
+    }
+
+    .active {
+        left: 0;
+    }
+
+    .header-list ul li a {
+        color: white;
+        display: block;
+    }
+
+    .header-list li {
+        margin-top: 15px;
+        float: none;
+        text-align: center;
+    }
+
+    
+
+    
+
+}

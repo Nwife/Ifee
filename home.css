@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+header {
+    height: 70px;
+    color: #000;
+    background-color: #ddd;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    padding: 20px 100px;
+    font-weight: 600; 
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+#bar {
+  float: right;
+  padding: 20px 40px;
+  display: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header-list li {
+    float: right;
+    padding: 20px 40px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.header-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-list li:hover {
+    color: red;
+}
+
+main {
+    padding: 200px 40px 200px 100px;
+    height: 680px;
+}
+
+.name h1 {
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.name h3 {
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    text-decoration: underline;
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.greet {
+    float: right;
+    position: absolute;
+    top:240px;
+    right: 40px;
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    font-size: 200px;
+    text-shadow: 1px 1px 5px #000;
+}
+
+span {
+    color: rgb(252, 65, 65);
+}
+
+footer {
+   
+    width: 100%;
+    height: 70px;
+    background-color: #dddddd;
+    bottom: 0;
+}
+
+.footer-list a {
+    float: right;
+    padding: 20px 0px;
+    cursor: pointer;
+    color: black;
+    margin-right: 10px;
+    padding-right: 14px;
+    font-size: 25px;
+}
+
